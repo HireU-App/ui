@@ -1,6 +1,6 @@
 # ui
 
-ui for higherhelp. Built using Next.js
+ui for higherhelp. Built using [Next.js](https://nextjs.org)
 
 ## Developers
 
