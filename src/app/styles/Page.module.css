@@ -1,12 +1,12 @@
 /* practice example */
-.p{
-  color:aquamarine;
+.p {
+  color: aquamarine;
 }
-.h1{
+.h1 {
   font-size: larger;
-  color:blueviolet;
+  color: blueviolet;
 }
-.border{
+.border {
   border-style: dotted;
   border-color: brown;
 }
