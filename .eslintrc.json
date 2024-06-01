@@ -1,3 +1,27 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "plugin:unicorn/recommended",
+    "eslint:recommended",
+    "prettier",
+    "plugin:prettier/recommended",
+    "next/core-web-vitals"
+  ],
+  "plugins": ["unicorn", "prettier"],
+  "rules": {
+    //These three are kind of annoying so turned them off
+    "unicorn/no-null": "off",
+    "@next/next/no-img-element": "off",
+    "unicorn/prevent-abbreviations": "off",
+    "unicorn/consistent-destructuring": "off",
+    "unicorn/no-array-callback-reference": "off",
+    "unicorn/no-array-method-this-argument": "off",
+    //Mainly for consistent filenames
+    "unicorn/filename-case": "off",
+    "import/no-anonymous-default-export": "off",
+    "prefer-destructuring": ["error", { "object": true, "array": false }],
+    "prefer-template": "error",
+    "prefer-const": "error",
+    "require-atomic-updates": "error",
+    "no-return-await": "error"
+  }
 }
