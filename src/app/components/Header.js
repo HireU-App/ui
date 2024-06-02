@@ -1,5 +1,7 @@
 //practice example
 import Styles from "@app/app/styles/Page.module.css";
+import React from "react";
+import PropTypes from "prop-types";
 export default function Header({ name }) {
   return (
     <>
@@ -8,3 +10,6 @@ export default function Header({ name }) {
     </>
   );
 }
+Header.propTypes = {
+  name: PropTypes.number,
+};
