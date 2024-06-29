@@ -1,12 +1,19 @@
-/* practice example */
-.p {
-  margin: 50px;
+.body{
+  background-color: rgb(207, 248, 233);
+  display: flex;
+  justify-content: center;
+  margin: 0;
 }
-.h1 {
-  font-size: larger;
-  color: blueviolet;
+.container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+  width: 50%;
+  margin: 0;
+  
 }
-.border {
-  border-style: dotted;
-  border-color: brown;
+.container > *{
+  margin: 20px;
 }
