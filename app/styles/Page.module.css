@@ -1,5 +1,4 @@
 .body{
-  background-color: rgb(207, 248, 233);
   display: flex;
   justify-content: center;
   margin: 0;
@@ -13,6 +12,7 @@
   width: 50%;
   margin: 0;
 }
-.container > *{
-  margin: 20px;
+.container .search{
+  width: 400px;
+  border: solid #2e47e7 1px;
 }
