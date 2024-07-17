@@ -1,4 +1,5 @@
-.form{
+.div{
+  background-color:  #faf9f6;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -6,9 +7,25 @@
   margin-top: 30px;
 }
 .text {
-  color: #2e47e7;
+  color: #2e47e7 !important;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* not applying; want to put space between heading and form*/
+  margin-top: 40px; 
 }
 
-.form > * {
-  margin-top: 20px;
+.formItem{
+  width: 300px;
+  border-bottom: solid #2e47e7 1px;
+}
+
+.button{
+  /* not applying had to do in-line style*/
+  border-radius: 6px;
+  width: 250px;
+  background-color: #2e47e7;
+  box-shadow: 0 4px 8px rgba(93, 92, 92, 0.2);
 }
