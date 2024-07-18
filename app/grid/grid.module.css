@@ -1,0 +1,53 @@
+.grid {
+  padding: 24px;
+}
+
+.grid :global(.ant-row) {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.grid :global(.ant-row) > :global(.ant-col) {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.spaced {
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
+
+.card {
+  background-color: rgba(0, 0, 255, 0.442);
+  padding: 24px;
+}
+
+.largeCard {
+  background-color: rgba(0, 255, 89, 0.442);
+  padding: 14px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hugeCard {
+  background-color: rgba(255, 0, 0, 0.442);
+  padding: 14px;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  gap: 10px;
+  align-items: stretch;
+}
