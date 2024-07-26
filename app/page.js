@@ -5,7 +5,7 @@ import { Image } from 'antd';
 export default function Home() {
   return (
     <div className={Styles.body}>
-      <div className={Styles.mg20}>
+      <div className={Styles.container}>
         <h1 className={Styles.mg20}>HireU: Student Skills at Your Service</h1>
         <Image
           className={Styles.mg20}

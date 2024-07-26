@@ -6,8 +6,9 @@
   align-items: center;
   margin-top: 30px;
 }
-.text {
-  color: #2e47e7 !important;
+.div .title {
+  color: #2e47e7;
+  margin-bottom: 30px;
 }
 .form{
   display: flex;
@@ -22,10 +23,20 @@
   border-bottom: solid #2e47e7 1px;
 }
 
-.button{
+.form .button{
   /* not applying had to do in-line style*/
-  border-radius: 6px;
+  border-radius: 15px;
   width: 250px;
   background-color: #2e47e7;
   box-shadow: 0 4px 8px rgba(93, 92, 92, 0.2);
+}
+.options {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-bottom: 24px;
+}
+.options .color{
+  color: #0c0c0c;
+  /* font-weight: bold; */
 }

@@ -12,13 +12,8 @@ export const metadata = {
 export default function Login() {
   return (
     <div className={Styles.div}>
-      <Image
-        src="/HireULogo.png"
-        width={100}
-        height={100}
-        alt="Image about university life from unsplash"
-      />
-      <Title className={Styles.text}>Welcome back!</Title>
+      <Image src="/HireULogo.png" width={100} height={100} alt="HireU Logo" />
+      <Title className={Styles.title}>Welcome back!</Title>
 
       <Form
         className={Styles.form}
@@ -34,7 +29,7 @@ export default function Login() {
           rules={[
             {
               required: true,
-              message: 'Please input your Username!',
+              message: 'A valid username is required',
             },
           ]}
         >
@@ -50,7 +45,7 @@ export default function Login() {
           rules={[
             {
               required: true,
-              message: 'Please input your Password!',
+              message: 'A valid password is required',
             },
           ]}
         >
@@ -61,27 +56,16 @@ export default function Login() {
             variant={false}
           />
         </FormItem>
-        <FormItem>
+        <div className={Styles.options}>
           <FormItem name="remember" valuePropName="checked" noStyle>
             <Checkbox>Remember me</Checkbox>
           </FormItem>
-
           <a className="login-form-forgot" href="">
-            Forgot password
+            <p className={Styles.color}>Forgot password</p>
           </a>
-        </FormItem>
-
+        </div>
         <FormItem>
-          <Button
-            style={{
-              width: '250px',
-              borderRadius: '15px',
-              backgroundColor: '#2e47e7',
-            }}
-            type="primary"
-            htmlType="submit"
-            className="login-form-button"
-          >
+          <Button className={Styles.button} type="primary" htmlType="submit">
             Log in
           </Button>
         </FormItem>
