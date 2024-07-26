@@ -1,8 +1,8 @@
-import Styles from '@app/styles/Search_schools.module.css';
 import GridStyles from '@app/styles/Grid.module.css';
+import Styles from '@app/styles/Search_schools.module.css';
 import UserQuestion from '@app/components/UserQuestion';
 import InputSearch from '@app/components/InputSearch';
-//import { Col, Row } from 'antd';
+
 export const metadata = {
   title: 'Search Schools',
 };
@@ -11,7 +11,7 @@ export default function Schools() {
     <div className={Styles.body}>
       <div className={Styles.container}>
         <UserQuestion question={'Which school do you attend?'} />
-        <InputSearch></InputSearch>
+        <InputSearch placeholder={'Search for your school'}></InputSearch>
         <br></br>
         <div className={GridStyles.flex}>
           <div className={GridStyles.largeCard}>Option 1</div>
