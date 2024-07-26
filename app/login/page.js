@@ -5,6 +5,10 @@ import FormItem from 'antd/lib/form/FormItem';
 import { Image } from 'antd';
 import Title from 'antd/lib/typography/Title';
 
+export const metadata = {
+  title: 'Login',
+};
+
 export default function Login() {
   return (
     <div className={Styles.div}>
