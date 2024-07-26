@@ -1,12 +1,13 @@
 import GridStyles from '@app/styles/Grid.module.css';
-import Styles from '@app/styles/Search_schools.module.css';
+import Styles from '@app/styles/Page.module.css';
 import UserQuestion from '@app/components/UserQuestion';
 import InputSearch from '@app/components/InputSearch';
 
 export const metadata = {
   title: 'Search Schools',
 };
-export default function Schools() {
+
+export default function SearchSchools() {
   return (
     <div className={Styles.body}>
       <div className={Styles.container}>
