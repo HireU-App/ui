@@ -1,4 +1,4 @@
-import Styles from '@app/styles/Page.module.css';
+import Styles from '@app/styles/Search_schools.module.css';
 import Text from 'antd/lib/typography/Text';
 import { Image } from 'antd';
 

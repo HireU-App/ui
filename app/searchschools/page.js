@@ -1,4 +1,5 @@
-import Styles from '@app/styles/Page.module.css';
+import Styles from '@app/styles/Search_schools.module.css';
+import GridStyles from '@app/styles/Grid.module.css';
 import UserQuestion from '@app/components/UserQuestion';
 import { SearchOutlined } from '@ant-design/icons';
 import { Input } from 'antd';
@@ -14,20 +15,22 @@ export default function Schools() {
           suffix={<SearchOutlined className="site-form-item-icon" />}
           placeholder="Search for school"
         />
+        <br></br>
+        <div className={GridStyles.flex}>
+          <div className={GridStyles.largeCard}>Option 1</div>
+          <div className={GridStyles.largeCard}>Option 2</div>
+          <div className={GridStyles.largeCard}>Option 3</div>
+          <div className={GridStyles.largeCard}>Option 4</div>
+          <div className={GridStyles.largeCard}>Option 5</div>
+          <div className={GridStyles.largeCard}>Option 6</div>
+          <div className={GridStyles.largeCard}>Option 7</div>
+          <div className={GridStyles.largeCard}>Option 8</div>
+          <div className={GridStyles.largeCard}>Option 9</div>
+          <div className={GridStyles.largeCard}>Option 10</div>
+          <div className={GridStyles.largeCard}>Option 11</div>
+          <div className={GridStyles.largeCard}>Option 12</div>
+        </div>
       </div>
-      <br></br>
-      {/* <Row gutter={[24, 32]}>
-        <Col span={6}> colum 1</Col>
-        <Col span={6}> colum 1</Col>
-        <Col span={6}> colum 1</Col>
-        <Col span={6}> colum 1</Col>
-      </Row>
-      <Row gutter={[24, 32]}>
-        <Col span={6}> colum 1</Col>
-        <Col span={6}> colum 1</Col>
-        <Col span={6}> colum 1</Col>
-        <Col span={6}> colum 1</Col>
-      </Row> */}
     </div>
   );
 }
