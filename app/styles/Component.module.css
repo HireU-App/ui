@@ -3,3 +3,10 @@
   margin-top: 20px;
   color: #2e47e7;
 }
+
+.div .search {
+  margin-top: 10px;
+  width: 400px;
+  border: solid #2e47e7 1px;
+}
+

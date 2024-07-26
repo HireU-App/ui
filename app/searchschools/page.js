@@ -1,20 +1,17 @@
 import Styles from '@app/styles/Search_schools.module.css';
 import GridStyles from '@app/styles/Grid.module.css';
 import UserQuestion from '@app/components/UserQuestion';
-import { SearchOutlined } from '@ant-design/icons';
-import { Input } from 'antd';
+import InputSearch from '@app/components/InputSearch';
 //import { Col, Row } from 'antd';
-
+export const metadata = {
+  title: 'Search Schools',
+};
 export default function Schools() {
   return (
     <div className={Styles.body}>
       <div className={Styles.container}>
         <UserQuestion question={'Which school do you attend?'} />
-        <Input
-          className={Styles.search}
-          suffix={<SearchOutlined className="site-form-item-icon" />}
-          placeholder="Search for school"
-        />
+        <InputSearch></InputSearch>
         <br></br>
         <div className={GridStyles.flex}>
           <div className={GridStyles.largeCard}>Option 1</div>
