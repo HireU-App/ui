@@ -1,5 +1,4 @@
 .div{
-  background-color:  #faf9f6;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,7 +13,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* not applying; want to put space between heading and form*/
   margin-top: 40px; 
 }
 
@@ -24,10 +22,7 @@
 }
 
 .form .button{
-  /* not applying had to do in-line style*/
-  border-radius: 15px;
   width: 250px;
-  background-color: #2e47e7;
   box-shadow: 0 4px 8px rgba(93, 92, 92, 0.2);
 }
 .options {
@@ -38,5 +33,4 @@
 }
 .options .color{
   color: #0c0c0c;
-  /* font-weight: bold; */
 }
