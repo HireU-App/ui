@@ -1,12 +1,18 @@
-/* practice example */
-.p {
-  margin:50px;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.pageNotFound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-color: white;
+  color: #2f54eb;
+  font-family: 'Nunito', sans-serif;
+  font-optical-sizing: auto;
 }
-.h1 {
-  font-size: larger;
-  color: blueviolet;
-}
-.border {
-  border-style: dotted;
-  border-color: brown;
+
+.pageNotFound h1 {
+  font-size: 100px;
 }

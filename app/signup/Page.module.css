@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,1000;1,200;1,1000&display=swap');
+
+.pageSignUp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: white;
+  font-family: 'Nunito', sans-serif;
+}
+
+.pageSignUp form {
+  width: 100%;
+  max-width: 360px;
+  padding: 20px;
+}
+
+.pageSignUp h1 {
+  margin-bottom: 20px;
+  color: #2f54eb;
+}
+
+.pageSignUp .ant-form-item {
+  margin-bottom: 16px;
+}
+
+/*
+  .pageSignUp .ant-input,
+  .pageSignUp .ant-input-password {
+    padding: 10px 12px;
+    border: none;
+
+  }*/
+
+.pageSignUp .ant-checkbox-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.pageSignUp .ant-checkbox-wrapper a {
+  margin-left: auto;
+}
+/*
+  .pageSignUp .ant-btn-primary {
+    background-color: #7cb305; 
+    border-color: #7cb305;
+    border-radius: 10px;
+    color:white;
+    padding: 14px 14px;
+  }*/
+
+.pageSignUp .ant-btn-primary:hover {
+  background-color: #679e04;
+  border-color: #679e04;
+}
+
+.pageSignUp .ant-divider {
+  margin: 20px 0;
+}
+
+.pageSignUp .ant-form-item-control-input-content .ant-btn {
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .pageSignUp {
+    padding: 10px;
+  }
+
+  .pageSignUp form {
+    padding: 15px;
+  }
+}
