@@ -1,7 +1,8 @@
 import Styles from '@app/styles/Login.module.css';
-import { EyeInvisibleOutlined, UserOutlined } from '@ant-design/icons';
+import { UserOutlined } from '@ant-design/icons';
 import { Button, Checkbox, Form, Input } from 'antd';
 import FormItem from 'antd/lib/form/FormItem';
+import InputPassword from 'antd/lib/input/Password';
 import { Image } from 'antd';
 import Title from 'antd/lib/typography/Title';
 
@@ -49,8 +50,8 @@ export default function Login() {
             },
           ]}
         >
-          <Input
-            suffix={<EyeInvisibleOutlined className="site-form-item-icon" />}
+          <InputPassword
+            // suffix={<EyeInvisibleOutlined className="site-form-item-icon" />}
             type="password"
             placeholder="Password"
             variant={false}
