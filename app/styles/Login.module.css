@@ -1,0 +1,36 @@
+.div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.div .title {
+  color: #2e47e7;
+  margin-bottom: 30px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px; 
+}
+
+.formItem{
+  width: 300px;
+  border-bottom: solid #2e47e7 1px;
+}
+
+.form .button{
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(93, 92, 92, 0.2);
+}
+.options {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-bottom: 24px;
+}
+.options .color{
+  color: #0c0c0c;
+}
