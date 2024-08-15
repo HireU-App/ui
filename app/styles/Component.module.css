@@ -1,0 +1,16 @@
+.div .search {
+  margin-bottom: 10px;
+  width: 400px;
+  border: solid #2e47e7 1px;
+}
+
+.container{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.container .nav {
+  color: #7cb305;
+}

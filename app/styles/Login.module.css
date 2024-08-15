@@ -7,7 +7,7 @@
 }
 .div .title {
   color: #2e47e7;
-  margin-bottom: 30px;
+  margin: 20px;
 }
 .form{
   display: flex;
@@ -32,5 +32,5 @@
   padding-bottom: 24px;
 }
 .options .color{
-  color: #0c0c0c;
+  color: #2e47e7;
 }

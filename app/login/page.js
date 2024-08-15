@@ -13,7 +13,7 @@ export const metadata = {
 export default function Login() {
   return (
     <div className={Styles.div}>
-      <Image src="/HireULogo.png" width={100} height={100} alt="HireU Logo" />
+      <Image src="/HireULogo.png" width={90} height={100} alt="HireU Logo" />
       <Title className={Styles.title}>Welcome back!</Title>
 
       <Form
