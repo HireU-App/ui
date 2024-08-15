@@ -1,6 +1,6 @@
 import GridStyles from '@app/styles/Grid.module.css';
-import Styles from '@app/styles/Page.module.css';
-import UserQuestion from '@app/components/UserQuestion';
+import Styles from '@app/styles/Search-Schools.module.css';
+import Title from 'antd/lib/typography/Title';
 import InputSearch from '@app/components/InputSearch';
 
 export const metadata = {
@@ -11,7 +11,9 @@ export default function SearchSchools() {
   return (
     <div className={Styles.body}>
       <div className={Styles.container}>
-        <UserQuestion question={'Which school do you attend?'} />
+        <Title className={Styles.user_question}>
+          Which school do you attend?
+        </Title>
         <InputSearch placeholder={'Search for your school'}></InputSearch>
         <br></br>
         <div className={GridStyles.flex}>
