@@ -2,6 +2,7 @@ import GridStyles from '@app/styles/Grid.module.css';
 import Styles from '@app/styles/Search-Schools.module.css';
 import Title from 'antd/lib/typography/Title';
 import InputSearch from '@app/components/InputSearch';
+import SignUpNav from '@app/components/SignUpNav';
 
 export const metadata = {
   title: 'Search Schools',
@@ -11,6 +12,7 @@ export default function SearchSchools() {
   return (
     <div className={Styles.body}>
       <div className={Styles.container}>
+        <SignUpNav />
         <Title className={Styles.user_question}>
           Which school do you attend?
         </Title>
