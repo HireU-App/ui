@@ -1,4 +1,4 @@
-.div{
+.div {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,19 +9,19 @@
   color: #2e47e7;
   margin: 20px;
 }
-.form{
+.form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 40px; 
+  margin-top: 40px;
 }
 
-.formItem{
+.formItem {
   width: 300px;
   border-bottom: solid #2e47e7 1px;
 }
 
-.form .button{
+.form .button {
   width: 250px;
   box-shadow: 0 4px 8px rgba(93, 92, 92, 0.2);
 }
@@ -31,6 +31,6 @@
   justify-content: space-between;
   padding-bottom: 24px;
 }
-.options .color{
+.options .color {
   color: #2e47e7;
 }

@@ -1,11 +1,11 @@
-import GridStyles from '@app/styles/Grid.module.css';
-import Styles from '@app/styles/Search-School.module.css';
+import GridStyles from '@app/styles/grid.module.css';
+import Styles from '@app/styles/search-school.module.css';
 import Title from 'antd/lib/typography/Title';
 import InputSearch from '@app/components/InputSearch';
 import SignUpNav from '@app/components/SignUpNav';
 
 export const metadata = {
-  title: 'Search Schools',
+  title: 'Search School',
 };
 
 export default function SearchSchool() {

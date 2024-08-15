@@ -1,4 +1,4 @@
-import Styles from '@app/styles/Landing.module.css';
+import Styles from '@app/styles/landing.module.css';
 import Text from 'antd/lib/typography/Text';
 import { Image } from 'antd';
 

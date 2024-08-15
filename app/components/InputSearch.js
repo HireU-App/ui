@@ -1,4 +1,4 @@
-import Styles from '@app/styles/Component.module.css';
+import Styles from '@app/styles/components/InputSearch.module.css';
 import { SearchOutlined } from '@ant-design/icons';
 import { Input } from 'antd';
 

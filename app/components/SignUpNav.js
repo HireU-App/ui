@@ -1,7 +1,7 @@
 import Text from 'antd/lib/typography/Text';
 import { Image } from 'antd';
 import { LeftOutlined, RightOutlined } from '@ant-design/icons';
-import Styles from '@app/styles/Component.module.css';
+import Styles from '@app/styles/components/SignUpNav.module.css';
 import Link from 'next/link';
 
 export default function SignUpNav() {
@@ -17,8 +17,8 @@ export default function SignUpNav() {
 
       <Image
         className={Styles.logo}
-        width={55}
-        height={50}
+        width={40}
+        height={40}
         src="/HireULogo.png"
         alt="HireU logo"
       />
