@@ -1,4 +1,4 @@
-import Styles from '@app/styles/login.module.css';
+import Styles from '@app/styles/Login.module.css';
 import { UserOutlined } from '@ant-design/icons';
 import { Button, Checkbox, Form, Input } from 'antd';
 import FormItem from 'antd/lib/form/FormItem';
