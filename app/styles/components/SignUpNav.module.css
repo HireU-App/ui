@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.container .nav {
+  color: #7cb305;
+}
